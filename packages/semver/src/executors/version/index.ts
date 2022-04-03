@@ -151,7 +151,7 @@ export default async function version(
                       version: newVersion.version,
                       tag: formatTag({
                         tagPrefix,
-                        lastVersion: newVersion.version,
+                        version: newVersion.version,
                       }),
                       tagPrefix,
                       noVerify,
